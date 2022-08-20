@@ -184,6 +184,10 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 val_1.setText("");
                 val_2.setText("");
+                add.setChecked(false);
+                minus.setChecked(false);
+                multiply.setChecked(false);
+                divide.setChecked(false);
             }
         });
     }
